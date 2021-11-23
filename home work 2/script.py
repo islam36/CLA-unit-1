@@ -53,6 +53,7 @@ else:
     print("{} is not in the list".format(x))
 
 # generate files from a.txt to z.txt
+# make sure the folder 'alphabet_files' is created in the current working directory
 alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 for c in alpha:
     file = open('./alphabet_files/' + c + '.txt', 'w')
